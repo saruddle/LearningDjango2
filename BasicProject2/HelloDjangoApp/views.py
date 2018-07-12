@@ -13,7 +13,7 @@ def index(request):
         "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
         {
             'title': "Hello Django",
-            'content': "Hello Django!", 
+            'content': " Hello Django!", 
             'message': " on " + now.strftime("%A, %d %B, %Y at %X")
         }
     )
